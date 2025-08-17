@@ -1,0 +1,19 @@
+# PyTorch with CUDA 12.1 support (install first)
+torch==2.2.1+cu121
+torchvision==0.17.1+cu121
+torchaudio==2.2.1+cu121
+--index-url https://download.pytorch.org/whl/cu121
+
+# Other packages (install in a separate command)
+ultralytics==8.2.8
+opencv-python==4.9.0.80
+pillow==10.3.0
+matplotlib==3.8.4
+seaborn==0.13.2
+numpy==1.26.4
+scipy==1.13.0
+scikit-learn==1.4.2
+tqdm==4.66.2
+pandas==2.2.1
+requests==2.31.0
+pyyaml==6.0.1

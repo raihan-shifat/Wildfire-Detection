@@ -1,0 +1,6 @@
+train: ./data/train
+val: ./data/val
+test: ./data/test
+
+nc: 2  # Number of classes (fire and non-fire)
+names: ['fire', 'non_fire']  # Class names

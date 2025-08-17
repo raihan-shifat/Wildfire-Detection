@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Envs & IDE
+venv/
+.env/
+.vscode/
+.idea/
+
+# Data & outputs
+datasets/
+runs/
+log/
+
+# Weights / large artifacts
+*.pt
+*.onnx
+*.engine
